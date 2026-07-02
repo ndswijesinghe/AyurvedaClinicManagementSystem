@@ -1,0 +1,70 @@
+﻿<Window x:Class="AyurvedaClinicManagementSystem.Views.DoctorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Doctor Management"
+        Height="500"
+        Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- FORM -->
+        <StackPanel Grid.Row="0">
+
+            <TextBlock Text="Doctor Name"/>
+            <TextBox x:Name="txtName" Height="30" Margin="0,5"/>
+
+            <TextBlock Text="Specialization"/>
+            <TextBox x:Name="txtSpecialization" Height="30" Margin="0,5"/>
+
+            <TextBlock Text="Phone Number"/>
+            <TextBox x:Name="txtPhone" Height="30" Margin="0,5"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+
+                <Button Content="Save"
+                        Width="100"
+                        Margin="5"
+                        Background="Green"
+                        Foreground="White"
+                        Click="Save_Click"/>
+
+                <Button Content="Update"
+                        Width="100"
+                        Margin="5"
+                        Background="Orange"
+                        Foreground="White"
+                        Click="Update_Click"/>
+
+                <Button Content="Delete"
+                        Width="100"
+                        Margin="5"
+                        Background="Red"
+                        Foreground="White"
+                        Click="Delete_Click"/>
+
+            </StackPanel>
+            <TextBlock Text="Search Doctor" Margin="5"/>
+
+            <TextBox x:Name="txtSearchDoctor"
+         Height="30"
+         Margin="5"
+         TextChanged="txtSearchDoctor_TextChanged"/>
+
+        </StackPanel>
+        
+
+        <!-- GRID -->
+        <DataGrid x:Name="DoctorGrid"
+                  Grid.Row="1"
+                  Margin="5"
+                  AutoGenerateColumns="True"
+                  SelectionChanged="DoctorGrid_SelectionChanged"/>
+
+    </Grid>
+</Window>

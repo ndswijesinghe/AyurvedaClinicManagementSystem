@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AyurvedaClinicManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe788bbb12e51676565336d3af97dab840afd2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8b61448ffdb8a3010f512aedd09da167e94c507")]
 [assembly: System.Reflection.AssemblyProductAttribute("AyurvedaClinicManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AyurvedaClinicManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

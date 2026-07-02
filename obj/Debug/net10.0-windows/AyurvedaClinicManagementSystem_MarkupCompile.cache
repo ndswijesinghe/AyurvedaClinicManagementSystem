@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\nndsw\AyurvedaClinicManagementSystem\App.xaml
-11407045341
+91274138454
 
-7-15166389
-206-1943539212
-MainWindow.xaml;
+16-1715498523
+2201703875386
+MainWindow.xaml;Views\AppointmentWindow.xaml;Views\BillWindow.xaml;Views\DashboardWindow.xaml;Views\DoctorWindow.xaml;Views\LoginWindow.xaml;Views\MedicineWindow.xaml;Views\PatientWindow.xaml;Views\PrescriptionWindow.xaml;
 
 False
 
